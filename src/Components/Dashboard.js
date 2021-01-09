@@ -2,7 +2,7 @@ import React from 'react';
 
 function Dashboard(props) {
   let amountSpent = 0
-  Object.keys(props.expenses).map((expense, i) => {
+  Object.keys(props.expenses).forEach(expense => {
     amountSpent += props.expenses[expense].cost
   })
   let percentSpent = amountSpent / props.monthlyBudget * 100
