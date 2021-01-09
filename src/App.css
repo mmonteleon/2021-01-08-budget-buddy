@@ -1,3 +1,109 @@
 .App {
+  font-family: 'IBM Plex Sans';
+}
+
+.Header {
+  background-color: rgb(215, 234, 215);
+  padding: 20px 30px;
   text-align: center;
+}
+
+.Header p {
+  margin:0;
+}
+
+.Header h3 {
+  font-size: 32px;
+  margin: 0px;
+  font-family: 'Abril Fatface';
+  font-style: italic;
+}
+
+.Welcome {
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(215, 234, 215);
+}
+
+.Welcome h4 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+.Welcome .intro {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.Welcome .row {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Welcome .row:last-child {
+  margin-top: 30px;
+  flex-direction: row-reverse;
+}
+
+
+.Welcome .question {
+  font-size: 20px;
+  margin: 0;
+}
+
+.Welcome .selectButton {
+  margin: 6px;
+  padding: 8px 16px;
+  color: white;
+  background-color: rgb(28, 124, 84);
+}
+
+.Welcome .selectButton.active {
+  background-color: rgb(0, 109, 170);
+}
+
+.Welcome input {
+  margin: 8px; 
+  padding: 6px;
+}
+
+.Dashboard {
+  width: 65%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(215, 234, 215);
+}
+
+.Dashboard .row {
+  display: flex;
+}
+
+.TileContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tile {
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  background-color: rgb(215, 234, 215);
+}
+
+.Tile .row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Tile .selectButton {
+  margin: 6px;
+  padding: 8px 16px;
+  color: white;
+  background-color: rgb(28, 124, 84);
 }
