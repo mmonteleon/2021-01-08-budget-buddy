@@ -105,5 +105,9 @@
   margin: 6px;
   padding: 8px 16px;
   color: white;
-  background-color: rgb(28, 124, 84);
+  background-color: rgb(0, 124, 124);
+}
+
+.Title .selectButton.active {
+  background-color: rgb(0, 109, 170);
 }
